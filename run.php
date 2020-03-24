@@ -170,19 +170,19 @@ $motorku = new motorku();
 echo "by @eco.nxn\nDisclaimer: Segala bentuk resiko atas tindakan ini saya pribadi tidak bertanggung jawab, gunakanlah senormal-nya!\n\n";
 echo "Kode Referral :";
 $reff = trim(fgets(STDIN));
-coin:
-echo "Jumlah Koin   :";
-$coin = trim(fgets(STDIN));
-if(!is_numeric($coin)) {
-    goto coin;
-} elseif ($coin < 15){
-    echo "[i] Masukkan jumlah koin yang diinginkan\n";
-    goto coin;
+poin:
+echo "Jumlah Poin   :";
+$poin = trim(fgets(STDIN));
+if(!is_numeric($poin)) {
+    goto poin;
+} elseif ($poin < 15){
+    echo "[i] Masukkan jumlah poin yang diinginkan\n";
+    goto poin;
 }
 echo "\n\n";
 
 $no=1;
-$loop = $coin/15;
+$loop = $poin/15;
 while(TRUE) {
 
     $randomuser = $motorku->randomuser();
