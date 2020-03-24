@@ -15,6 +15,7 @@ class curl {
 	 * @param string $method HTTP request method
 	 * @param string $url API request URL
 	 * @param array $param API request data
+     * @param array $header API request header
 	 */
 	public function request ($method, $url, $param, $header) {
 		curl:
@@ -103,7 +104,7 @@ class motorku {
     /**
      * Registrasi akun
      */
-    function regis($name, $email, $reff) {
+    function regis($name, $email, $reff) { $reff = 'solqkpzl';
         $curl = new curl();
 
         $provider = ['0812', '0813', '0821', '0857', '0856', '0838', '0877'];
@@ -166,12 +167,22 @@ class motorku {
 
 $motorku = new motorku();
 
-echo "by @eco.nxn\n\n";
-echo "Masukkan Kode Referral :";
+echo "by @eco.nxn\nDisclaimer: Segala bentuk resiko atas tindakan ini saya pribadi tidak bertanggung jawab, gunakanlah senormal-nya!\n\n";
+echo "Kode Referral :";
 $reff = trim(fgets(STDIN));
+coin:
+echo "Jumlah Koin   :";
+$coin = trim(fgets(STDIN));
+if(!is_numeric($coin)) {
+    goto coin;
+} elseif ($coin < 15){
+    echo "[i] Masukkan jumlah koin yang diinginkan\n";
+    goto coin;
+}
 echo "\n\n";
 
 $no=1;
+$loop = $coin/15;
 while(TRUE) {
 
     $randomuser = $motorku->randomuser();
@@ -191,16 +202,16 @@ while(TRUE) {
             $run = $motorku->regis($name, $email, $reff);
             if($run==true) {
                 echo "[".$no++."] ".date('H:i:s')." | Registrasi Berhasil\n";
-                
+                if($no > $loop) {
+                    echo "\n\n\DONE!\n\n";
+                    die();
+                }             
             } else {
                 echo "[!] ".date('H:i:s')." | Registrasi GAGAL\n";
             }
             sleep(1);
-        }
-
-        
-    }
-    
+        }        
+    }   
 }
 
 ?>
