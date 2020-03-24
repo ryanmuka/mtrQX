@@ -103,7 +103,7 @@ class motorku {
     /**
      * Registrasi akun
      */
-    function regis($name, $email, $reff) { $reff = 'solqkpzl';
+    function regis($name, $email, $reff) {
         $curl = new curl();
 
         $provider = ['0812', '0813', '0821', '0857', '0856', '0838', '0877'];
