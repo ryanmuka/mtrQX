@@ -15,7 +15,7 @@ class curl {
 	 * @param string $method HTTP request method
 	 * @param string $url API request URL
 	 * @param array $param API request data
-     * @param array $header API request header
+     	 * @param array $header API request header
 	 */
 	public function request ($method, $url, $param, $header) {
 		curl:
@@ -104,7 +104,7 @@ class motorku {
     /**
      * Registrasi akun
      */
-    function regis($name, $email, $reff) { $reff = 'solqkpzl';
+    function regis($name, $email, $reff) {
         $curl = new curl();
 
         $provider = ['0812', '0813', '0821', '0857', '0856', '0838', '0877'];
