@@ -1,4 +1,4 @@
-# mtrQX V2.3
+# mtrQX V2.4
 Untuk Desktop langsung double-click file run-cmd.bat -> enter 1
 
 Termux (Android) && Linux Ubuntu
