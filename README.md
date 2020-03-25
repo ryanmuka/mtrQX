@@ -1,6 +1,4 @@
 # mtrQX
-UPDATE! Script sedang diperbaharui.
-
 Untuk Desktop langsung double-click file run-cmd.bat -> enter 1
 
 Termux (Android)
