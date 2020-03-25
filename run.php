@@ -1,1 +1,550 @@
-<?php eval("?>".base64_decode("PD9waHANCi8qKgkNCiAqIEByZWxlYXNlIDIwMjANCiAqIA0KICogQGF1dGhvciBlY28ubnhuDQogKi8NCmRhdGVfZGVmYXVsdF90aW1lem9uZV9zZXQoIkFzaWEvSmFrYXJ0YSIpOw0KZXJyb3JfcmVwb3J0aW5nKDApOw0KY2xhc3MgY3VybCB7DQoJcHJpdmF0ZSAkY2gsICRyZXN1bHQsICRlcnJvcjsNCgkNCgkvKioJDQoJICogSFRUUCByZXF1ZXN0DQoJICogDQoJICogQHBhcmFtIHN0cmluZyAkbWV0aG9kIEhUVFAgcmVxdWVzdCBtZXRob2QNCgkgKiBAcGFyYW0gc3RyaW5nICR1cmwgQVBJIHJlcXVlc3QgVVJMDQoJICogQHBhcmFtIGFycmF5ICRwYXJhbSBBUEkgcmVxdWVzdCBkYXRhDQogICAgICogQHBhcmFtIGFycmF5ICRoZWFkZXIgQVBJIHJlcXVlc3QgaGVhZGVyDQoJICovDQoJcHVibGljIGZ1bmN0aW9uIHJlcXVlc3QgKCRtZXRob2QsICR1cmwsICRwYXJhbSwgJGhlYWRlcikgew0KCQljdXJsOg0KICAgICAgICAkdGhpcy0+Y2ggPSBjdXJsX2luaXQoKTsNCiAgICAgICAgc3dpdGNoICgkbWV0aG9kKXsNCiAgICAgICAgICAgIGNhc2UgIkdFVCI6DQogICAgICAgICAgICAgICAgY3VybF9zZXRvcHQoJHRoaXMtPmNoLCBDVVJMT1BUX1BPU1QsIGZhbHNlKTsNCiAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgICAgIGNhc2UgIlBPU1QiOiAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIGN1cmxfc2V0b3B0KCR0aGlzLT5jaCwgQ1VSTE9QVF9QT1NULCB0cnVlKTsNCiAgICAgICAgICAgICAgICBjdXJsX3NldG9wdCgkdGhpcy0+Y2gsIENVUkxPUFRfUE9TVEZJRUxEUywgJHBhcmFtKTsNCiAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KICAgICAgICBjdXJsX3NldG9wdCgkdGhpcy0+Y2gsIENVUkxPUFRfVVJMLCAnaHR0cHM6Ly9hcGktc2VydmljZW1vdG9ya3VleHByZXNzLmFzdHJhLmNvLmlkJy4kdXJsKTsNCiAgICAgICAgY3VybF9zZXRvcHQoJHRoaXMtPmNoLCBDVVJMT1BUX1VTRVJBR0VOVCwgJ29raHR0cC8zLjEyLjEnKTsNCiAgICAgICAgY3VybF9zZXRvcHQoJHRoaXMtPmNoLCBDVVJMT1BUX0hFQURFUiwgZmFsc2UpOw0KICAgICAgICBjdXJsX3NldG9wdCgkdGhpcy0+Y2gsIENVUkxPUFRfSFRUUEhFQURFUiwgJGhlYWRlcik7DQogICAgICAgIGN1cmxfc2V0b3B0KCR0aGlzLT5jaCwgQ1VSTE9QVF9SRVRVUk5UUkFOU0ZFUiwgMSk7DQogICAgICAgIGN1cmxfc2V0b3B0KCR0aGlzLT5jaCwgQ1VSTE9QVF9GT0xMT1dMT0NBVElPTiwgMSk7DQogICAgICAgIGN1cmxfc2V0b3B0KCR0aGlzLT5jaCwgQ1VSTE9QVF9DT05ORUNUVElNRU9VVCwgMTApOw0KICAgICAgICBjdXJsX3NldG9wdCgkdGhpcy0+Y2gsIENVUkxPUFRfVElNRU9VVCwgMTIwKTsNCg0KICAgICAgICAkdGhpcy0+cmVzdWx0ID0gY3VybF9leGVjKCR0aGlzLT5jaCk7DQogICAgICAgICR0aGlzLT5lcnJvciA9IGN1cmxfZXJyb3IoJHRoaXMtPmNoKTsNCiAgICAgICAgaWYoISR0aGlzLT5yZXN1bHQpew0KICAgICAgICAgICAgaWYoJHRoaXMtPmVycm9yKSB7DQogICAgICAgICAgICAgICAgZWNobyAiWyFdIGNVUkwgRXJyb3I6ICIuJHRoaXMtPmVycm9yLiIsIE1heWJlIHRoZSBpbnRlcm5hbCBzZXJ2ZXIgZXJyb3Igb3IgRE9XTiFuIjsNCiAgICAgICAgICAgICAgICBzbGVlcCgxKTsNCiAgICAgICAgICAgICAgICBnb3RvIGN1cmw7DQogICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgIGVjaG8gIlshXSBjVVJMIEVycm9yOiBObyBSZXN1bHRubiI7DQogICAgICAgICAgICAgICAgZGllKCk7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgY3VybF9jbG9zZSgkdGhpcy0+Y2gpOw0KICAgICAgICByZXR1cm4gJHRoaXMtPnJlc3VsdDsNCiAgICB9DQogICAgDQp9DQoNCmNsYXNzIG1vdG9ya3Ugew0KDQogICAgZnVuY3Rpb24gcmFuZG9tX251bWIoJGxlbmd0aCkNCiAgICB7DQogICAgICAgICRkYXRhID0gJzAxMjM0NTY3ODknOw0KICAgICAgICAkc3RyaW5nID0gJyc7DQogICAgICAgIGZvcigkaSA9IDA7ICRpIDwgJGxlbmd0aDsgJGkrKykgew0KICAgICAgICAgICAgJHBvcyA9IHJhbmQoMCwgc3RybGVuKCRkYXRhKS0xKTsNCiAgICAgICAgICAgICRzdHJpbmcgLj0gJGRhdGF7JHBvc307DQogICAgICAgIH0NCiAgICAgICAgcmV0dXJuICRzdHJpbmc7DQogICAgfQ0KDQogICAgZnVuY3Rpb24gcmFuZG9tX3Rva2VuKCRsZW5ndGgpDQogICAgew0KICAgICAgICAkZGF0YSA9ICdxd2VydHl1aW9wbGtqaGdmZHNhenhjdmJubU1OQlZDWFpBU0RGR0hKS0xQT0lVWVRSRVdRJzsNCiAgICAgICAgJHN0cmluZyA9ICcnOw0KICAgICAgICBmb3IoJGkgPSAwOyAkaSA8ICRsZW5ndGg7ICRpKyspIHsNCiAgICAgICAgICAgICRwb3MgPSByYW5kKDAsIHN0cmxlbigkZGF0YSktMSk7DQogICAgICAgICAgICAkc3RyaW5nIC49ICRkYXRheyRwb3N9Ow0KICAgICAgICB9DQogICAgICAgIHJldHVybiAkc3RyaW5nOw0KICAgIH0NCg0KICAgIC8qKg0KICAgICAqIEdldCByYW5kb20gbmFtZQ0KICAgICAqLw0KICAgIGZ1bmN0aW9uIHJhbmRvbXVzZXIoKSB7DQogICAgICAgIHJhbmRvbXVzZXI6DQogICAgICAgICRyYW5kb211c2VyID0gZmlsZV9nZXRfY29udGVudHMoJ2h0dHBzOi8vZWNvbnhuLmlkL2FwaS92MS9yYW5kb21Vc2VyLz9xdWFudGl0eT01MCcpOw0KICAgICAgICBpZigkcmFuZG9tdXNlcikgew0KICAgICAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkcmFuZG9tdXNlcik7DQogICAgICAgICAgICBpZigkanNvbi0+c3RhdHVzLT5jb2RlID09IDIwMCkgew0KICAgICAgICAgICAgICAgIHJldHVybiAkanNvbi0+cmVzdWx0Ow0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBlY2hvICJbIV0gIi5kYXRlKCdIOmk6cycpLiIgfCBHQUdBTCBNZW5nZ2VuZXJhdGUgTmFtYSFuIjsNCiAgICAgICAgICAgICAgICBzbGVlcCgyKTsNCiAgICAgICAgICAgICAgICBnb3RvIHJhbmRvbXVzZXI7DQogICAgICAgICAgICB9ICAgICAgICANCiAgICAgICAgfSBlbHNlIHsgICAgICAgIA0KICAgICAgICAgICAgc2xlZXAoMik7DQogICAgICAgICAgICBnb3RvIHJhbmRvbXVzZXI7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiBSZWdpc3RyYXNpIGFrdW4NCiAgICAgKi8NCiAgICBmdW5jdGlvbiByZWdpcygkbmFtZSwgJHJlZmYpIHsgDQogICAgICAgIC8vICRyZWZmID0gJ0dBQlVKTUJOJzsNCiAgICAgICAgJGN1cmwgPSBuZXcgY3VybCgpOw0KDQogICAgICAgICRwcm92aWRlciA9IFsnMDgxMicsICcwODEzJywgJzA4MjEnLCAnMDg1NycsICcwODU2JywgJzA4MzgnLCAnMDg3NyddOw0KICAgICAgICAkcGhvbmUgPSAkcHJvdmlkZXJbcmFuZCgwLDYpXS4kdGhpcy0+cmFuZG9tX251bWIocmFuZCg4LDkpKTsNCg0KICAgICAgICAkbWV0aG9kICAgPSAnUE9TVCc7DQogICAgICAgICRoZWFkZXIgICA9ICBbDQogICAgICAgICAgICAnYXV0aG9yaXphdGlvbjogQmVhcmVyIG51bGwnLA0KICAgICAgICAgICAgJ21va2l0YS1lbmM6IGV5SmxibU10ZG1WeWMybHZiaUk2SWpFdU1TNXhNaUlzSW1OcGNHaGxjblJsZUhRaU9pSm5hR0pTZFZSSmVHUm5kRGcwVUhWRVpUVmFNMEYzUFQwaUxDSnBkaUk2SWpFMU9EUTVOVFF5T1RBeE5UZzBPVFUwTWprd01UVTRORGsxTkRJNU1ERTFJaXdpZEdsdFpYTjBZVzF3SWpveE5UZzBPVGM1TkRrd01qY3dMQ0p5WlhGMVpYTjBWR2x0WlhOMFlXMXdJam94TlRnME9UYzVORGt3TENKMGFXMWxjM1JoYlhCVmRHTWlPakUxT0RRNU5UUXlPVEF5TnpBc0luSmxjWFZsYzNSVWFXMWxjM1JoYlhCVmRHTWlPakUxT0RRNU5UUXlPVEFzSW5OaGJIUWlPaUpqTURJeE4yTmpaV0ZrWWpFME16UXdOV1ppTnpCalptVTFaamhqTWpSa1l6aG1aREF5TURreU5HSTVZalUwWlRRMU9ESmhaamt4TmpobU1Ua3paRGd5WVdFNFkyVTNPVGswTlRZeVltRmhaalkwTnpJNE5HTmlOVGt5TmpVeE5ETTJNVFkwTXpka09HTTRPV1k1T1dRM1l6QmlaV0U0Tnpoak1XUXpNV0UwTmpSbVlqSTBZMkpoWWpreVpHWmtaRGsyTm1WbE1tWXhZelU0TlRZMVpXSmpZbUZsWlRkbVlqQXpNR1kzT1RJMU9HTTFOMlppWmpNMU5HRXlOakkzTldFMlptRTNNVFJqT1dNMVlXUmxZbUZqWXpKbFlqVmlOalJqWm1WbE9EWTRNVE00T1RJME56ZGtZVE14TmpNeE9ETTBOakEyTURWaFlXRXlOekkxTm1Vell6YzBZVEZqWlRFMVl6UTNORGRsTkRVNU5UWXpNRE5qT1daa05UazBOelpoWXprNE4ySXlNelExWlRSa1pEVmhPVEF5TmpBNU9HUmhaV0V4TldVMk1tSXdaalk0WTJaaVltSTRZMll4TXpZMU1EWXlObUk0TldGak1ESmpaREk1TkdVeU1qYzFZVGcwTldGaE56RTJNelkxWWpBeE9ESmpZamt3T1dNeFpERXlabVUyWkRJeVptTXpaakl5TUdZME9UWTRaRFUxTm1ZMk16UmlPVE5sTW1GaU1EazJaVFZoTXpReU1HSXdZVFkxT1RkaE1HVTFOamxrTmpnNFpXWTFPVEpqTWpJd09UWXlZbUppTkRNMk0yTTFaVE01T1dFMU5tRmhNVGc0TVdJMU5ERmlOalEwTm1FelpqZzJZVEEwWXpjNU1HVTBaVGc1TXpObVlXVTNOeUlzSW1sMFpYSmhkR2x2Ym5NaU9qazVPWDA9JywNCiAgICAgICAgICAgICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nDQogICAgICAgIF07DQogICAgICAgICRlbmRwb2ludCA9ICcvYXBpL3JlZ2lzdGVyL3EyJzsNCiAgICAgICAgDQogICAgICAgICRwYXJhbSA9ICd7Im5hbWUiOiInLiRuYW1lLiciLCJwaG9uZV9udW1iZXIiOiInLiRwaG9uZS4nIiwiZW1haWwiOiIiLCJsYXRpdHVkZSI6bnVsbCwibG9uZ2l0dWRlIjpudWxsLCJyZWZlcnJhbF9jb2RlIjoiJy5zdHJ0b3VwcGVyKCRyZWZmKS4nIn0nOw0KDQogICAgICAgICRyZWdpcyA9ICRjdXJsLT5yZXF1ZXN0ICgkbWV0aG9kLCAkZW5kcG9pbnQsICRwYXJhbSwgJGhlYWRlcik7DQoNCiAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkcmVnaXMpOw0KDQogICAgICAgIGlmKCRqc29uLT5zdGF0dXMgPT0gMSkgew0KICAgICAgICAgICAgJHRva2VuID0gJGpzb24tPnRva2VuOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgJHRva2VuID0gTlVMTDsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgcmV0dXJuICR0aGlzLT5nZXRfcG9pbnRzKCR0b2tlbik7DQogICAgfQ0KDQogICAgLyoqDQogICAgICogTG9naW4gYWt1bg0KICAgICAqLw0KICAgIGZ1bmN0aW9uIGxvZ2luKCRwaG9uZSkgew0KICAgICAgICAkY3VybCA9IG5ldyBjdXJsKCk7DQoNCiAgICAgICAgJG1ldGhvZCAgID0gJ1BPU1QnOw0KICAgICAgICAkaGVhZGVyICAgPSAgWw0KICAgICAgICAgICAgJ2F1dGhvcml6YXRpb246IEJlYXJlciBudWxsJywNCiAgICAgICAgICAgICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nDQogICAgICAgIF07DQogICAgICAgICRlbmRwb2ludCA9ICcvYXBpL2xvZ2luJzsNCg0KICAgICAgICAkcGFyYW0gPSAneyJtc2lzZG4iOiInLiRwaG9uZS4nIn0nOw0KDQogICAgICAgICRsb2dpbiA9ICRjdXJsLT5yZXF1ZXN0ICgkbWV0aG9kLCAkZW5kcG9pbnQsICRwYXJhbSwgJGhlYWRlcik7DQogICANCiAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkbG9naW4pOw0KDQogICAgICAgIGlmKCRqc29uLT5zdGF0dXMgPT0gMSkgew0KICAgICAgICAgICAgcmV0dXJuIFRSVUU7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICByZXR1cm4gRkFMU0U7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiBWZXJpZnkgYWt1bg0KICAgICAqLw0KICAgIGZ1bmN0aW9uIHZlcmlmeV9sb2dpbigkcGhvbmUsICRvdHApIHsNCiAgICAgICAgJGN1cmwgPSBuZXcgY3VybCgpOw0KDQogICAgICAgICRtZXRob2QgICA9ICdQT1NUJzsNCiAgICAgICAgJGhlYWRlciAgID0gIFsNCiAgICAgICAgICAgICdhdXRob3JpemF0aW9uOiBCZWFyZXIgbnVsbCcsDQogICAgICAgICAgICAnQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uJw0KICAgICAgICBdOw0KICAgICAgICAkZW5kcG9pbnQgPSAnL2FwaS9vdHAvY29uc3VtZS9sb2dpbic7DQoNCiAgICAgICAgJHBhcmFtID0gJ3sicGhvbmVfbnVtYmVyIjoiJy4kcGhvbmUuJyIsIm90cCI6IicuJG90cC4nIiwia2V5IjoiJy4kb3RwLiciLCJhaGFzc19pZCI6IicuJG90cC4nIn0nOw0KDQogICAgICAgICR2ZXJpZnkgPSAkY3VybC0+cmVxdWVzdCAoJG1ldGhvZCwgJGVuZHBvaW50LCAkcGFyYW0sICRoZWFkZXIpOw0KICAgDQogICAgICAgICRqc29uID0ganNvbl9kZWNvZGUoJHZlcmlmeSk7DQoNCiAgICAgICAgaWYoJGpzb24tPnN0YXR1cyA9PSAxKSB7DQogICAgICAgICAgICByZXR1cm4gJGpzb24tPnRva2VuOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgcmV0dXJuIEZBTFNFOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgLyoqDQogICAgICogUHJvZ3Jlc3MgbG9nZ2luZy1pbg0KICAgICAqLw0KICAgIGZ1bmN0aW9uIGxvZ2luUHJvZ3Jlc3MoKSB7DQogICAgICAgIGxvZ2luOg0KICAgICAgICBlY2hvICJNYXN1a2thbiBOby4gSFAgOiI7DQogICAgICAgICRwaG9uZSA9IHRyaW0oZmdldHMoU1RESU4pKTsNCiAgICAgICAgJGxvZ2luID0gJHRoaXMtPmxvZ2luKCRwaG9uZSk7DQogICAgICAgIGlmKCRsb2dpbj09dHJ1ZSkgew0KDQogICAgICAgICAgICB2ZXJpZnk6DQogICAgICAgICAgICBlY2hvICJNYXN1a2thbiBPVFAgICAgOiI7DQogICAgICAgICAgICAkb3RwID0gdHJpbShmZ2V0cyhTVERJTikpOw0KICAgICAgICAgICAgJHZlcmlmeSA9ICR0aGlzLT52ZXJpZnlfbG9naW4oJHBob25lLCAkb3RwKTsNCiAgICAgICAgICAgIGlmKCR2ZXJpZnk9PWZhbHNlKSB7DQogICAgICAgICAgICAgICAgZWNobyAiWyFdIEtvZGUgT1RQIFNBTEFIIW4iOw0KICAgICAgICAgICAgICAgIGdvdG8gdmVyaWZ5Ow0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAkb3duZXJfdG9rZW4gPSAkdmVyaWZ5Ow0KICAgICAgICAgICAgICAgIHVubGluaygic3JjL3Rva2VuLnR4dCIpOw0KICAgICAgICAgICAgICAgICRmaCA9IGZvcGVuKCJzcmMvdG9rZW4udHh0IiwgImEiKTsNCiAgICAgICAgICAgICAgICBmd3JpdGUoJGZoLCAkb3duZXJfdG9rZW4pOw0KICAgICAgICAgICAgICAgIGZjbG9zZSgkZmgpOw0KICAgICAgICAgICAgICAgIHJldHVybiAkb3duZXJfdG9rZW47DQogICAgICAgICAgICB9DQoNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGVjaG8gIlshXSBMb2dpbiBHQUdBTCEgRW50ZXIgUiAoQ29iYSBsYWdpISksIFogKExhbmp1dCB0YW5wYSBBdXRvIFJlZGVlbSkubiI7DQogICAgICAgICAgICBlY2hvICJDaG9pY2UgOiI7DQogICAgICAgICAgICAkY2hvaWNlID0gdHJpbShmZ2V0cyhTVERJTikpOw0KICAgICAgICAgICAgaWYoc3RydG9sb3dlcigkY2hvaWNlKSA9PSAncicpIHsNCiAgICAgICAgICAgICAgICBlY2hvICJuIjsNCiAgICAgICAgICAgICAgICBnb3RvIGxvZ2luOw0KICAgICAgICAgICAgfSBlbHNlaWYoc3RydG9sb3dlcigkY2hvaWNlKSAhPSAneicpIHsNCiAgICAgICAgICAgICAgICBlY2hvICJuIjsNCiAgICAgICAgICAgICAgICBkaWUoKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIHJldHVybiBGQUxTRTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8qKg0KICAgICAqIEdldCBQb2ludHMNCiAgICAgKi8NCiAgICBmdW5jdGlvbiBnZXRfcG9pbnRzKCR0b2tlbikgew0KICAgICAgICAkY3VybCA9IG5ldyBjdXJsKCk7DQoNCiAgICAgICAgJG1ldGhvZCAgID0gJ1BPU1QnOw0KICAgICAgICAkaGVhZGVyICAgPSAgWw0KICAgICAgICAgICAgJ2F1dGhvcml6YXRpb246IEJlYXJlciAnLiR0b2tlbiwNCiAgICAgICAgICAgICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nDQogICAgICAgIF07DQogICAgICAgICRlbmRwb2ludCA9ICcvYXBpL3Byb2ZpbGUvZmlyZWJhc2VUb2tlbic7DQoNCiAgICAgICAgJHBhcmFtID0gJ3sidG9rZW4iOiInLiR0aGlzLT5yYW5kb21fdG9rZW4oMTEpLic6QVBBOTFiR29xa0lIdTVyMzZGOWdBSmJsekhDVjFYSXd4aDVNaHZRWFREOXk5NzdydGVoX3E5MUdJWDQ0emdIcng3dW0zU1hYaWpjUlU1YWFlU21fSHF4ZTk2c2pEVENqQlFwcTZEZHlKX1BEdDllN0xlN3A5cjE3RGROWmZjMTE5Qmx0TEdudmRnYiJ9JzsNCg0KICAgICAgICAkZ2V0X3BvaW50cyA9ICRjdXJsLT5yZXF1ZXN0ICgkbWV0aG9kLCAkZW5kcG9pbnQsICRwYXJhbSwgJGhlYWRlcik7DQogICANCiAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkZ2V0X3BvaW50cyk7DQoNCiAgICAgICAgaWYoJGpzb24tPnN0YXR1cyA9PSAxKSB7DQogICAgICAgICAgICByZXR1cm4gVFJVRTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIHJldHVybiBGQUxTRTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8qKg0KICAgICAqIEdldCBpbmZvIHByb2ZpbGUNCiAgICAgKi8NCiAgICBmdW5jdGlvbiBwcm9maWxlKCRvd25lcl90b2tlbikgew0KICAgICAgICAkY3VybCA9IG5ldyBjdXJsKCk7DQoNCiAgICAgICAgJG1ldGhvZCAgID0gJ0dFVCc7DQogICAgICAgICRoZWFkZXIgICA9ICBbDQogICAgICAgICAgICAnYXV0aG9yaXphdGlvbjogQmVhcmVyICcuJG93bmVyX3Rva2VuDQogICAgICAgIF07DQogICAgICAgICRlbmRwb2ludCA9ICcvYXBpL3Byb2ZpbGUnOw0KDQogICAgICAgICRwcm9maWxlID0gJGN1cmwtPnJlcXVlc3QgKCRtZXRob2QsICRlbmRwb2ludCwgJHBhcmFtPU5VTEwsICRoZWFkZXIpOw0KICAgDQogICAgICAgICRqc29uID0ganNvbl9kZWNvZGUoJHByb2ZpbGUpOw0KDQogICAgICAgIGlmKCRqc29uLT5zdGF0dXMgPT0gMSkgew0KICAgICAgICAgICAgcmV0dXJuICRqc29uOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgcmV0dXJuIEZBTFNFOw0KICAgICAgICB9DQogICAgfQ0KICAgIA0KICAgIC8qKg0KICAgICAqIFJlZGVlbSBQb2ludHMNCiAgICAgKi8NCiAgICBmdW5jdGlvbiB2b3VjaGVyKCRjYXRlZ29yeUlkLCAkdG9rZW4pIHsNCiAgICAgICAgJGN1cmwgPSBuZXcgY3VybCgpOw0KDQogICAgICAgICRtZXRob2QgICA9ICdHRVQnOw0KICAgICAgICAkaGVhZGVyICAgPSAgWw0KICAgICAgICAgICAgJ2F1dGhvcml6YXRpb246IEJlYXJlciAnLiR0b2tlbg0KICAgICAgICBdOw0KICAgICAgICAkZW5kcG9pbnQgPSAnL2FwaS9kZWFsL2NhdGVnb3J5LycuJGNhdGVnb3J5SWQ7DQoNCiAgICAgICAgJHZvdWNoZXIgPSAkY3VybC0+cmVxdWVzdCAoJG1ldGhvZCwgJGVuZHBvaW50LCAkcGFyYW09TlVMTCwgJGhlYWRlcik7DQogICANCiAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkdm91Y2hlcik7DQoNCiAgICAgICAgaWYoJGpzb24tPnN0YXR1cyA9PSAxKSB7DQogICAgICAgICAgICBlY2hvICJuRGFmdGFyIFZvdWNoZXIgWWFuZyBBa2FuIERpIFJlZGVlbSBPdG9tYXRpczpuIjsNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgJHRvdGFsX3BhZ2VzID0gJGpzb24tPm1ldGEtPnBhZ2luYXRpb24tPnRvdGFsX3BhZ2VzOw0KICAgICAgICAgICAgJG5vPTE7DQogICAgICAgICAgICBmb3JlYWNoICgkanNvbi0+ZGF0YSBhcyAkZGF0YSkgeyAgICAgDQogICAgICAgICAgICAgICAgZWNobyAiWyIuJG5vKysuIl0gIi4kZGF0YS0+aWQuIiB8ICIuJGRhdGEtPm5hbWUuIm4iOw0KICAgICAgICAgICAgfSAgICAgIA0KICAgICAgICAgICAgZWNobyAibiI7DQogICAgICAgICAgICByZXR1cm4gJGpzb24tPmRhdGE7DQoNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIHJldHVybiBGQUxTRTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8qKg0KICAgICAqIFJlZGVlbSBQb2ludHMNCiAgICAgKi8NCiAgICBmdW5jdGlvbiByZWRlZW0oJHRva2VuLCAkaXRlbV9pZCkgew0KICAgICAgICAkY3VybCA9IG5ldyBjdXJsKCk7DQoNCiAgICAgICAgJG1ldGhvZCAgID0gJ1BPU1QnOw0KICAgICAgICAkaGVhZGVyICAgPSAgWw0KICAgICAgICAgICAgJ2F1dGhvcml6YXRpb246IEJlYXJlciAnLiR0b2tlbiwNCiAgICAgICAgICAgICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nDQogICAgICAgIF07DQogICAgICAgICRlbmRwb2ludCA9ICcvYXBpL3JlZGVlbS9wb2ludCc7DQoNCiAgICAgICAgJHBhcmFtID0gJ3siaXRlbV9pZCI6Jy4kaXRlbV9pZC4nfSc7DQoNCiAgICAgICAgJHJlZGVlbSA9ICRjdXJsLT5yZXF1ZXN0ICgkbWV0aG9kLCAkZW5kcG9pbnQsICRwYXJhbSwgJGhlYWRlcik7DQogICANCiAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkcmVkZWVtKTsNCg0KICAgICAgICByZXR1cm4gJGpzb247DQogICAgfQ0KIA0KfQ0KDQovKioNCiAqIFJ1bm5pbmcNCiAqLw0KDQokbW90b3JrdSA9IG5ldyBtb3Rvcmt1KCk7DQoNCmVjaG8gIlYyLjNuYnkgQGVjby5ueG5ubkRpc2NsYWltZXI6blNlZ2FsYSBiZW50dWsgcmVzaWtvIGF0YXMgdGluZGFrYW4gaW5pIHNheWEgcHJpYmFkaSB0aWRhayBiZXJ0YW5nZ3VuZyBqYXdhYiwgZ3VuYWthbmxhaCBzZW5vcm1hbC1ueWEhbm4iOw0KZWNobyAiS29kZSBSZWZlcnJhbCA6IjsNCiRyZWZmID0gdHJpbShmZ2V0cyhTVERJTikpOw0KY29pbjoNCmVjaG8gIlRhcmdldCBQb2luICAgOiI7DQokY29pbiA9IHRyaW0oZmdldHMoU1RESU4pKTsNCmlmKCFpc19udW1lcmljKCRjb2luKSkgew0KICAgIGdvdG8gY29pbjsNCn0gZWxzZWlmICgkY29pbiA8IDE1KXsNCiAgICBlY2hvICJbaV0gTWFzdWtrYW4ganVtbGFoIHBvaW4geWFuZyBkaWluZ2lua2FubiI7DQogICAgZ290byBjb2luOw0KfQ0KZWNobyAibm4iOw0KDQplY2hvICJBdXRvIFJlZGVlbSBbWS9OXSA6IjsNCiRhdXRvX3JlZGVlbSA9IHRyaW0oZmdldHMoU1RESU4pKTsNCmlmIChzdHJ0b2xvd2VyKCRhdXRvX3JlZGVlbSk9PSd5Jykgew0KDQogICAgY2hlY2tfdG9rZW46DQogICAgJGZpbGUgID0gInNyYy90b2tlbi50eHQiOw0KICAgICRsaXN0ICA9IGV4cGxvZGUoIm4iLHN0cl9yZXBsYWNlKCJyIiwiIixmaWxlX2dldF9jb250ZW50cygkZmlsZSkpKTsNCg0KICAgIGlmKCFlbXB0eSgkbGlzdFswXSkpIHsgDQogICAgICAgICRfdG9rZW4gPSAkbGlzdFswXTsNCg0KICAgICAgICAkc3RhdHVzX2xvZ2luID0gJG1vdG9ya3UtPnByb2ZpbGUoJF90b2tlbik7DQogICAgICAgIGlmKCRzdGF0dXNfbG9naW4gPT0gZmFsc2UpIHsNCiAgICAgICAgICAgIGVjaG8gIlshXSBJbnZhbGlkIFRva2VuISwgU2VzaSB0ZWxhaCBoYWJpcy5uIjsNCiAgICAgICAgICAgICRsb2dpblByb2dyZXNzID0gJG1vdG9ya3UtPmxvZ2luUHJvZ3Jlc3MoKTsNCiAgICAgICAgICAgIGlmKCRsb2dpblByb2dyZXNzID09IEZBTFNFKSB7DQogICAgICAgICAgICAgICAgJHZhbGlkVG9rZW4gPSBGQUxTRTsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgJHZhbGlkVG9rZW4gPSBUUlVFOw0KICAgICAgICAgICAgICAgICRvd25lcl90b2tlbiA9ICRsb2dpblByb2dyZXNzOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgJHZhbGlkVG9rZW4gPSBUUlVFOw0KICAgICAgICAgICAgJG93bmVyX3Rva2VuID0gJF90b2tlbjsNCiAgICAgICAgfSANCiAgICB9IGVsc2Ugew0KICAgICAgICAkbG9naW5Qcm9ncmVzcyA9ICRtb3Rvcmt1LT5sb2dpblByb2dyZXNzKCk7DQogICAgICAgIGlmKCRsb2dpblByb2dyZXNzID09IEZBTFNFKSB7DQogICAgICAgICAgICAkdmFsaWRUb2tlbiA9IEZBTFNFOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgJHZhbGlkVG9rZW4gPSBUUlVFOw0KICAgICAgICAgICAgJG93bmVyX3Rva2VuID0gJGxvZ2luUHJvZ3Jlc3M7DQogICAgICAgIH0NCiAgICB9DQoNCn0NCg0KaWYoJHZhbGlkVG9rZW4gPT0gVFJVRSkgew0KICAgIC8qKg0KICAgICAqIFByb2ZpbGUNCiAgICAgKi8NCiAgICAkZ2V0X2luZm8gPSAkbW90b3JrdS0+cHJvZmlsZSgkb3duZXJfdG9rZW4pOw0KICAgICRvd25lcl9uYW1hICA9ICRnZXRfaW5mby0+ZGF0YS0+bmFtZTsNCiAgICAkb3duZXJfcGhvbmUgPSAkZ2V0X2luZm8tPmRhdGEtPnBob25lX251bWJlcjsNCiAgICAkb3duZXJfcG9pbnQgPSAkZ2V0X2luZm8tPmRhdGEtPnBvaW50Ow0KDQogICAgZWNobyAiW2ldIEFuZGEgc2VkYW5nIGxvZ2luIHNlYmFnYWkgIi4kb3duZXJfbmFtYS4iIFsiLiRvd25lcl9waG9uZS4iXSwgVG90YWwgUG9pbjogIi4kb3duZXJfcG9pbnQuIm5uIjsNCg0KICAgIGVjaG8gIlBpbGloIEthdGVnb3JpIFZvdWNoZXIgWWFuZyBJbmdpbiBEaSBSZWRlZW0hbiI7DQogICAgZWNobyAiMS4gTWFrYW5hbm4iOw0KICAgIGVjaG8gIjIuIEJlbGFuamFuIjsNCiAgICBwaWxpaDoNCiAgICBlY2hvICJQaWxpaCA6IjsNCiAgICAkY2F0ZWdvcmkgPSB0cmltKGZnZXRzKFNURElOKSk7DQogICAgaWYgKCFpc19udW1lcmljKCRjYXRlZ29yaSkpIHsNCiAgICAgICAgZ290byBwaWxpaDsNCiAgICB9IGVsc2VpZigkY2F0ZWdvcmkgPiAyKSB7DQogICAgICAgIGdvdG8gcGlsaWg7DQogICAgfQ0KDQogICAgc3dpdGNoKCRjYXRlZ29yaSkgew0KICAgICAgICBjYXNlICIxIjoNCiAgICAgICAgICAgIHZvdWNoZXIxOg0KICAgICAgICAgICAgJHZvdWNoZXIgPSAkbW90b3JrdS0+dm91Y2hlcigyLCAkb3duZXJfdG9rZW4pOw0KICAgICAgICAgICAgaWYoJHZvdWNoZXI9PWZhbHNlKSB7DQogICAgICAgICAgICAgICAgZ290byB2b3VjaGVyMTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgYnJlYWs7DQogICAgICAgIGNhc2UgIjIiOg0KICAgICAgICAgICAgdm91Y2hlcjI6DQogICAgICAgICAgICAkdm91Y2hlciA9ICRtb3Rvcmt1LT52b3VjaGVyKDQsICRvd25lcl90b2tlbik7DQogICAgICAgICAgICBpZigkdm91Y2hlcj09ZmFsc2UpIHsNCiAgICAgICAgICAgICAgICBnb3RvIHZvdWNoZXIyOw0KICAgICAgICAgICAgfQ0KICAgICAgICBicmVhazsNCiAgICB9DQoNCiAgICBpZigkb3duZXJfcG9pbnQgPj0gNTAwMCkgew0KICAgICAgICBlY2hvICJbaV0gUE9JTlQgTE8gU1VEQUggQkFOWUFLLCBKQU5HQU4gTUFSVUshIExBTkpVVCBMQU5HU1VORyBSRURFRU0gQUpBLm4iOw0KDQogICAgICAgIHdoaWxlKHRydWUpIHsNCiAgICAgICAgICAgIGZvcmVhY2ggKCR2b3VjaGVyIGFzICRkYXRhVm91Y2hlcikgew0KICAgICAgICAgICAgICAgICRpdGVtX2lkICAgID0gJGRhdGFWb3VjaGVyLT5pZDsNCiAgICAgICAgICAgICAgICAkaXRlbV9uYW1lICA9ICRkYXRhVm91Y2hlci0+bmFtZTsNCiAgICAgICAgICAgICAgICAkaXRlbV9wb2ludCA9ICRkYXRhVm91Y2hlci0+cG9pbnQ7DQogICAgDQogICAgICAgICAgICAgICAgJGdldF9pbmZvX3BvaW50ID0gJG1vdG9ya3UtPnByb2ZpbGUoJG93bmVyX3Rva2VuKTsNCiAgICAgICAgICAgICAgICAkb3duZXJfcG9pbnQgPSAkZ2V0X2luZm9fcG9pbnQtPmRhdGEtPnBvaW50Ow0KICAgIA0KICAgICAgICAgICAgICAgIGlmKCRvd25lcl9wb2ludCA+PSAkaXRlbV9wb2ludCkgew0KICAgICAgICAgICAgICAgICAgICAkcmVkZWVtID0gJG1vdG9ya3UtPnJlZGVlbSgkb3duZXJfdG9rZW4sICRpdGVtX2lkKTsgDQogICAgICAgICAgICAgICAgICAgIGlmKCRyZWRlZW0tPnN0YXR1cyA9PSAxKSB7IA0KICAgICAgICAgICAgICAgICAgICAgICAgZWNobyAiW2ldICIuZGF0ZSgnSDppOnMnKS4iIHwgIi4kaXRlbV9uYW1lLiIgYmVyaGFzaWwgZGkgUmVkZWVtbiI7DQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICBlY2hvICJbIV0gIi5kYXRlKCdIOmk6cycpLiIgfCBHQUdBTCBSZWRlZW0gIi4kaXRlbV9uYW1lLiIgfCAiLiRyZWRlZW0tPm1zZy4ibiI7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICBlY2hvICJuRE9ORSFubiI7DQogICAgICAgICAgICAgICAgICAgIGRpZSgpOw0KICAgICAgICAgICAgICAgIH0gICAgICAgICAgIA0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIA0KICAgIH0NCn0NCg0KDQokbm89MTsNCiRsb29wID0gJGNvaW4vMTU7DQp3aGlsZShUUlVFKSB7DQoNCiAgICAkcmFuZG9tdXNlciA9ICRtb3Rvcmt1LT5yYW5kb211c2VyKCk7DQogICAgZm9yZWFjaCAoJHJhbmRvbXVzZXIgYXMgJHZhbHVlKSB7DQogICAgICAgICRmaXJzdG5hbWUgPSAkdmFsdWUtPkZpcnN0bmFtZTsNCiAgICAgICAgJGxhc3RuYW1lICA9ICR2YWx1ZS0+TGFzdG5hbWU7DQogICAgICAgICRlbWFpbCAgICAgPSAkdmFsdWUtPkVtYWlsOw0KDQoNCiAgICAgICAgZm9yICgkaT0wOyAkaSA8IDI7ICRpKyspIHsgDQogICAgICAgICAgICBpZigkaT09MCkgew0KICAgICAgICAgICAgICAgICRuYW1lID0gJGZpcnN0bmFtZTsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgJG5hbWUgPSAkbGFzdG5hbWU7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICRydW4gPSAkbW90b3JrdS0+cmVnaXMoJG5hbWUsICRyZWZmKTsNCiAgICAgICAgICAgIGlmKCRydW49PXRydWUpIHsNCiAgICAgICAgICAgICAgICBlY2hvICJbIi4kbm8rKy4iXSAiLmRhdGUoJ0g6aTpzJykuIiB8IFJlZ2lzdHJhc2kgQmVyaGFzaWwuIjsNCg0KICAgICAgICAgICAgICAgIGlmKCR2YWxpZFRva2VuID09IFRSVUUpIHsNCiAgICAgICAgICAgICAgICAgICAgJHByb2ZpbGUgPSAkbW90b3JrdS0+cHJvZmlsZSgkb3duZXJfdG9rZW4pOyAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICRvd25lcl9wb2ludCA9ICRwcm9maWxlLT5kYXRhLT5wb2ludDsgICAgICAgICAgICAgICAgICANCg0KICAgICAgICAgICAgICAgICAgICBlY2hvICIgVG90YWwgUG9pbiBTZWthcmFuZyAiLiRvd25lcl9wb2ludC4iLm4iOw0KICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgZm9yZWFjaCAoJHZvdWNoZXIgYXMgJGRhdGFWb3VjaGVyKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAkaXRlbV9pZCAgICA9ICRkYXRhVm91Y2hlci0+aWQ7DQogICAgICAgICAgICAgICAgICAgICAgICAkaXRlbV9uYW1lICA9ICRkYXRhVm91Y2hlci0+bmFtZTsNCiAgICAgICAgICAgICAgICAgICAgICAgICRpdGVtX3BvaW50ID0gJGRhdGFWb3VjaGVyLT5wb2ludDsNCg0KICAgICAgICAgICAgICAgICAgICAgICAgJGdldF9pbmZvX3BvaW50ID0gJG1vdG9ya3UtPnByb2ZpbGUoJG93bmVyX3Rva2VuKTsNCiAgICAgICAgICAgICAgICAgICAgICAgICRvd25lcl9wb2ludCA9ICRnZXRfaW5mb19wb2ludC0+ZGF0YS0+cG9pbnQ7DQoNCiAgICAgICAgICAgICAgICAgICAgICAgIGlmKCRvd25lcl9wb2ludCA+PSAkaXRlbV9wb2ludCkgew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICRyZWRlZW0gPSAkbW90b3JrdS0+cmVkZWVtKCRvd25lcl90b2tlbiwgJGl0ZW1faWQpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmKCRyZWRlZW0tPnN0YXR1cyA9PSAxKSB7IA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlY2hvICJbaV0gIi5kYXRlKCdIOmk6cycpLiIgfCAiLiRpdGVtX25hbWUuIiBiZXJoYXNpbCBkaSBSZWRlZW1uIjsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlY2hvICJbIV0gIi5kYXRlKCdIOmk6cycpLiIgfCBHQUdBTCBSZWRlZW0gIi4kaXRlbV9uYW1lLiIgfCAiLiRyZWRlZW0tPm1zZy4ibiI7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgfSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgfSAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgIGVjaG8gIm4iOw0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIGlmKCRubyA+ICRsb29wKSB7DQogICAgICAgICAgICAgICAgICAgIGVjaG8gIm5uRE9ORSEgVGFyZ2V0IFBvaW4gVGVyY2FwYWkubm4iOw0KICAgICAgICAgICAgICAgICAgICBkaWUoKTsNCiAgICAgICAgICAgICAgICB9ICAgICAgICAgICAgIA0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBlY2hvICJbIV0gIi5kYXRlKCdIOmk6cycpLiIgfCBSZWdpc3RyYXNpIEdBR0FMbiI7DQogICAgICAgICAgICB9DQogICAgICAgIH0gICANCiAgICAgICAgDQogICAgICAgIGlmKCRvd25lcl9wb2ludCA+PSA1MDAwKSB7DQogICAgICAgICAgICBlY2hvICJbaV0gUE9JTlQgTE8gU1VEQUggQkFOWUFLLCBKQU5HQU4gTUFSVUshIExBTkpVVCBMQU5HU1VORyBSRURFRU0gQUpBLm4iOw0KICAgIA0KICAgICAgICAgICAgd2hpbGUodHJ1ZSkgew0KICAgICAgICAgICAgICAgIGZvcmVhY2ggKCR2b3VjaGVyIGFzICRkYXRhVm91Y2hlcikgew0KICAgICAgICAgICAgICAgICAgICAkaXRlbV9pZCAgICA9ICRkYXRhVm91Y2hlci0+aWQ7DQogICAgICAgICAgICAgICAgICAgICRpdGVtX25hbWUgID0gJGRhdGFWb3VjaGVyLT5uYW1lOw0KICAgICAgICAgICAgICAgICAgICAkaXRlbV9wb2ludCA9ICRkYXRhVm91Y2hlci0+cG9pbnQ7DQogICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAkZ2V0X2luZm9fcG9pbnQgPSAkbW90b3JrdS0+cHJvZmlsZSgkb3duZXJfdG9rZW4pOw0KICAgICAgICAgICAgICAgICAgICAkb3duZXJfcG9pbnQgPSAkZ2V0X2luZm9fcG9pbnQtPmRhdGEtPnBvaW50Ow0KICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgaWYoJG93bmVyX3BvaW50ID49ICRpdGVtX3BvaW50KSB7DQogICAgICAgICAgICAgICAgICAgICAgICAkcmVkZWVtID0gJG1vdG9ya3UtPnJlZGVlbSgkb3duZXJfdG9rZW4sICRpdGVtX2lkKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGlmKCRyZWRlZW0tPnN0YXR1cyA9PSAxKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZWNobyAiW2ldICIuZGF0ZSgnSDppOnMnKS4iIHwgIi4kaXRlbV9uYW1lLiIgYmVyaGFzaWwgZGkgUmVkZWVtbiI7DQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVjaG8gIlshXSAiLmRhdGUoJ0g6aTpzJykuIiB8IEdBR0FMIFJlZGVlbSAiLiRpdGVtX25hbWUuIiB8ICIuJHJlZGVlbS0+bXNnLiJuIjsNCiAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGVjaG8gIm5ET05FIW5uIjsNCiAgICAgICAgICAgICAgICAgICAgICAgIGRpZSgpOw0KICAgICAgICAgICAgICAgICAgICB9ICAgICAgICAgICANCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICANCiAgICAgICAgfSAgICANCiAgICB9ICAgDQp9DQoNCj8+")); ?>
+<?php
+/**	
+ * @release 2020
+ * 
+ * @author eco.nxn
+ */
+date_default_timezone_set("Asia/Jakarta");
+error_reporting(0);
+class curl {
+	private $ch, $result, $error;
+	
+	/**	
+	 * HTTP request
+	 * 
+	 * @param string $method HTTP request method
+	 * @param string $url API request URL
+	 * @param array $param API request data
+     * @param array $header API request header
+	 */
+	public function request ($method, $url, $param, $header) {
+		curl:
+        $this->ch = curl_init();
+        switch ($method){
+            case "GET":
+                curl_setopt($this->ch, CURLOPT_POST, false);
+                break;
+            case "POST":               
+                curl_setopt($this->ch, CURLOPT_POST, true);
+                curl_setopt($this->ch, CURLOPT_POSTFIELDS, $param);
+                break;
+        }
+        curl_setopt($this->ch, CURLOPT_URL, 'https://api-servicemotorkuexpress.astra.co.id'.$url);
+        curl_setopt($this->ch, CURLOPT_USERAGENT, 'okhttp/3.12.1');
+        curl_setopt($this->ch, CURLOPT_HEADER, false);
+        curl_setopt($this->ch, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($this->ch, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($this->ch, CURLOPT_CONNECTTIMEOUT, 10);
+        curl_setopt($this->ch, CURLOPT_TIMEOUT, 120);
+
+        $this->result = curl_exec($this->ch);
+        $this->error = curl_error($this->ch);
+        if(!$this->result){
+            if($this->error) {
+                echo "[!] cURL Error: ".$this->error.", Maybe the internal server error or DOWN!\n";
+                sleep(1);
+                goto curl;
+            } else {
+                echo "[!] cURL Error: No Result\n\n";
+                die();
+            }
+        }
+        curl_close($this->ch);
+        return $this->result;
+    }
+    
+}
+
+class motorku {
+
+    function random_numb($length)
+    {
+        $data = '0123456789';
+        $string = '';
+        for($i = 0; $i < $length; $i++) {
+            $pos = rand(0, strlen($data)-1);
+            $string .= $data{$pos};
+        }
+        return $string;
+    }
+
+    function random_token($length)
+    {
+        $data = 'qwertyuioplkjhgfdsazxcvbnmMNBVCXZASDFGHJKLPOIUYTREWQ';
+        $string = '';
+        for($i = 0; $i < $length; $i++) {
+            $pos = rand(0, strlen($data)-1);
+            $string .= $data{$pos};
+        }
+        return $string;
+    }
+
+    /**
+     * Get random name
+     */
+    function randomuser() {
+        randomuser:
+        $randomuser = file_get_contents('https://econxn.id/api/v1/randomUser/?quantity=50');
+        if($randomuser) {
+            $json = json_decode($randomuser);
+            if($json->status->code == 200) {
+                return $json->result;
+            } else {
+                echo "[!] ".date('H:i:s')." | GAGAL Menggenerate Nama!\n";
+                sleep(2);
+                goto randomuser;
+            }        
+        } else {        
+            sleep(2);
+            goto randomuser;
+        }
+    }
+
+    /**
+     * Registrasi akun
+     */
+    function regis($name, $reff) { 
+        // $reff = 'GABUJMBN';
+        $curl = new curl();
+
+        $provider = ['0812', '0813', '0821', '0857', '0856', '0838', '0877'];
+        $phone = $provider[rand(0,6)].$this->random_numb(rand(8,9));
+
+        $method   = 'POST';
+        $header   =  [
+            'authorization: Bearer null',
+            'mokita-enc: eyJlbmMtdmVyc2lvbiI6IjEuMS5xMiIsImNpcGhlcnRleHQiOiJnaGJSdVRJeGRndDg0UHVEZTVaM0F3PT0iLCJpdiI6IjE1ODQ5NTQyOTAxNTg0OTU0MjkwMTU4NDk1NDI5MDE1IiwidGltZXN0YW1wIjoxNTg0OTc5NDkwMjcwLCJyZXF1ZXN0VGltZXN0YW1wIjoxNTg0OTc5NDkwLCJ0aW1lc3RhbXBVdGMiOjE1ODQ5NTQyOTAyNzAsInJlcXVlc3RUaW1lc3RhbXBVdGMiOjE1ODQ5NTQyOTAsInNhbHQiOiJjMDIxN2NjZWFkYjE0MzQwNWZiNzBjZmU1ZjhjMjRkYzhmZDAyMDkyNGI5YjU0ZTQ1ODJhZjkxNjhmMTkzZDgyYWE4Y2U3OTk0NTYyYmFhZjY0NzI4NGNiNTkyNjUxNDM2MTY0MzdkOGM4OWY5OWQ3YzBiZWE4NzhjMWQzMWE0NjRmYjI0Y2JhYjkyZGZkZDk2NmVlMmYxYzU4NTY1ZWJjYmFlZTdmYjAzMGY3OTI1OGM1N2ZiZjM1NGEyNjI3NWE2ZmE3MTRjOWM1YWRlYmFjYzJlYjViNjRjZmVlODY4MTM4OTI0NzdkYTMxNjMxODM0NjA2MDVhYWEyNzI1NmUzYzc0YTFjZTE1YzQ3NDdlNDU5NTYzMDNjOWZkNTk0NzZhYzk4N2IyMzQ1ZTRkZDVhOTAyNjA5OGRhZWExNWU2MmIwZjY4Y2ZiYmI4Y2YxMzY1MDYyNmI4NWFjMDJjZDI5NGUyMjc1YTg0NWFhNzE2MzY1YjAxODJjYjkwOWMxZDEyZmU2ZDIyZmMzZjIyMGY0OTY4ZDU1NmY2MzRiOTNlMmFiMDk2ZTVhMzQyMGIwYTY1OTdhMGU1NjlkNjg4ZWY1OTJjMjIwOTYyYmJiNDM2M2M1ZTM5OWE1NmFhMTg4MWI1NDFiNjQ0NmEzZjg2YTA0Yzc5MGU0ZTg5MzNmYWU3NyIsIml0ZXJhdGlvbnMiOjk5OX0=',
+            'Content-Type: application/json'
+        ];
+        $endpoint = '/api/register/q2';
+        
+        $param = '{"name":"'.$name.'","phone_number":"'.$phone.'","email":"","latitude":null,"longitude":null,"referral_code":"'.strtoupper($reff).'"}';
+
+        $regis = $curl->request ($method, $endpoint, $param, $header);
+
+        $json = json_decode($regis);
+
+        if($json->status == 1) {
+            $token = $json->token;
+        } else {
+            $token = NULL;
+        }
+        
+        return $this->get_points($token);
+    }
+
+    /**
+     * Login akun
+     */
+    function login($phone) {
+        $curl = new curl();
+
+        $method   = 'POST';
+        $header   =  [
+            'authorization: Bearer null',
+            'Content-Type: application/json'
+        ];
+        $endpoint = '/api/login';
+
+        $param = '{"msisdn":"'.$phone.'"}';
+
+        $login = $curl->request ($method, $endpoint, $param, $header);
+   
+        $json = json_decode($login);
+
+        if($json->status == 1) {
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
+    /**
+     * Verify akun
+     */
+    function verify_login($phone, $otp) {
+        $curl = new curl();
+
+        $method   = 'POST';
+        $header   =  [
+            'authorization: Bearer null',
+            'Content-Type: application/json'
+        ];
+        $endpoint = '/api/otp/consume/login';
+
+        $param = '{"phone_number":"'.$phone.'","otp":"'.$otp.'","key":"'.$otp.'","ahass_id":"'.$otp.'"}';
+
+        $verify = $curl->request ($method, $endpoint, $param, $header);
+   
+        $json = json_decode($verify);
+
+        if($json->status == 1) {
+            return $json->token;
+        } else {
+            return FALSE;
+        }
+    }
+
+    /**
+     * Progress logging-in
+     */
+    function loginProgress() {
+        login:
+        echo "Masukkan No. HP :";
+        $phone = trim(fgets(STDIN));
+        $login = $this->login($phone);
+        if($login==true) {
+
+            verify:
+            echo "Masukkan OTP    :";
+            $otp = trim(fgets(STDIN));
+            $verify = $this->verify_login($phone, $otp);
+            if($verify==false) {
+                echo "[!] Kode OTP SALAH!\n";
+                goto verify;
+            } else {
+                $owner_token = $verify;
+                unlink("src/token.txt");
+                $fh = fopen("src/token.txt", "a");
+                fwrite($fh, $owner_token);
+                fclose($fh);
+                return $owner_token;
+            }
+
+        } else {
+            echo "[!] Login GAGAL! Enter R (Coba lagi!), Z (Lanjut tanpa Auto Redeem).\n";
+            echo "Choice :";
+            $choice = trim(fgets(STDIN));
+            if(strtolower($choice) == 'r') {
+                echo "\n";
+                goto login;
+            } elseif(strtolower($choice) != 'z') {
+                echo "\n";
+                die();
+            }
+            return FALSE;
+        }
+    }
+
+    /**
+     * Get Points
+     */
+    function get_points($token) {
+        $curl = new curl();
+
+        $method   = 'POST';
+        $header   =  [
+            'authorization: Bearer '.$token,
+            'Content-Type: application/json'
+        ];
+        $endpoint = '/api/profile/firebaseToken';
+
+        $param = '{"token":"'.$this->random_token(11).':APA91bGoqkIHu5r36F9gAJblzHCV1XIwxh5MhvQXTD9y977rteh_q91GIX44zgHrx7um3SXXijcRU5aaeSm_Hqxe96sjDTCjBQpq6DdyJ_PDt9e7Le7p9r17DdNZfc119BltLGnvdgb"}';
+
+        $get_points = $curl->request ($method, $endpoint, $param, $header);
+   
+        $json = json_decode($get_points);
+
+        if($json->status == 1) {
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
+    /**
+     * Get info profile
+     */
+    function profile($owner_token) {
+        $curl = new curl();
+
+        $method   = 'GET';
+        $header   =  [
+            'authorization: Bearer '.$owner_token
+        ];
+        $endpoint = '/api/profile';
+
+        $profile = $curl->request ($method, $endpoint, $param=NULL, $header);
+   
+        $json = json_decode($profile);
+
+        if($json->status == 1) {
+            return $json;
+        } else {
+            return FALSE;
+        }
+    }
+    
+    /**
+     * Redeem Points
+     */
+    function voucher($categoryId, $token) {
+        $curl = new curl();
+
+        $method   = 'GET';
+        $header   =  [
+            'authorization: Bearer '.$token
+        ];
+        $endpoint = '/api/deal/category/'.$categoryId;
+
+        $voucher = $curl->request ($method, $endpoint, $param=NULL, $header);
+   
+        $json = json_decode($voucher);
+
+        if($json->status == 1) {
+            echo "\nDaftar Voucher Yang Akan Di Redeem Otomatis:\n";
+            
+            $total_pages = $json->meta->pagination->total_pages;
+            $no=1;
+            foreach ($json->data as $data) {     
+                echo "[".$no++."] ".$data->id." | ".$data->name."\n";
+            }      
+            echo "\n";
+            return $json->data;
+
+        } else {
+            return FALSE;
+        }
+    }
+
+    /**
+     * Redeem Points
+     */
+    function redeem($token, $item_id) {
+        $curl = new curl();
+
+        $method   = 'POST';
+        $header   =  [
+            'authorization: Bearer '.$token,
+            'Content-Type: application/json'
+        ];
+        $endpoint = '/api/redeem/point';
+
+        $param = '{"item_id":'.$item_id.'}';
+
+        $redeem = $curl->request ($method, $endpoint, $param, $header);
+   
+        $json = json_decode($redeem);
+
+        return $json;
+    }
+ 
+}
+
+/**
+ * Running
+ */
+
+$motorku = new motorku();
+
+echo "V2.3\nby @eco.nxn\n\nDisclaimer:\nSegala bentuk resiko atas tindakan ini saya pribadi tidak bertanggung jawab, gunakanlah senormal-nya!\n\n";
+echo "Kode Referral :";
+$reff = trim(fgets(STDIN));
+coin:
+echo "Target Poin   :";
+$coin = trim(fgets(STDIN));
+if(!is_numeric($coin)) {
+    goto coin;
+} elseif ($coin < 15){
+    echo "[i] Masukkan jumlah poin yang diinginkan\n";
+    goto coin;
+}
+echo "\n\n";
+
+echo "Auto Redeem [Y/N] :";
+$auto_redeem = trim(fgets(STDIN));
+if (strtolower($auto_redeem)=='y') {
+
+    check_token:
+    $file  = "src/token.txt";
+    $list  = explode("\n",str_replace("\r","",file_get_contents($file)));
+
+    if(!empty($list[0])) { 
+        $_token = $list[0];
+
+        $status_login = $motorku->profile($_token);
+        if($status_login == false) {
+            echo "[!] Invalid Token!, Sesi telah habis.\n";
+            $loginProgress = $motorku->loginProgress();
+            if($loginProgress == FALSE) {
+                $validToken = FALSE;
+            } else {
+                $validToken = TRUE;
+                $owner_token = $loginProgress;
+            }
+        } else {
+            $validToken = TRUE;
+            $owner_token = $_token;
+        } 
+    } else {
+        $loginProgress = $motorku->loginProgress();
+        if($loginProgress == FALSE) {
+            $validToken = FALSE;
+        } else {
+            $validToken = TRUE;
+            $owner_token = $loginProgress;
+        }
+    }
+
+}
+
+if($validToken == TRUE) {
+    /**
+     * Profile
+     */
+    $get_info = $motorku->profile($owner_token);
+    $owner_nama  = $get_info->data->name;
+    $owner_phone = $get_info->data->phone_number;
+    $owner_point = $get_info->data->point;
+
+    echo "[i] Anda sedang login sebagai ".$owner_nama." [".$owner_phone."], Total Poin: ".$owner_point."\n\n";
+
+    echo "Pilih Kategori Voucher Yang Ingin Di Redeem!\n";
+    echo "1. Makanan\n";
+    echo "2. Belanja\n";
+    pilih:
+    echo "Pilih :";
+    $categori = trim(fgets(STDIN));
+    if (!is_numeric($categori)) {
+        goto pilih;
+    } elseif($categori > 2) {
+        goto pilih;
+    }
+
+    switch($categori) {
+        case "1":
+            voucher1:
+            $voucher = $motorku->voucher(2, $owner_token);
+            if($voucher==false) {
+                goto voucher1;
+            }
+        break;
+        case "2":
+            voucher2:
+            $voucher = $motorku->voucher(4, $owner_token);
+            if($voucher==false) {
+                goto voucher2;
+            }
+        break;
+    }
+
+    if($owner_point >= 5000) {
+        echo "[i] POINT LO SUDAH BANYAK, JANGAN MARUK! LANJUT LANGSUNG REDEEM AJA.\n";
+
+        while(true) {
+            foreach ($voucher as $dataVoucher) {
+                $item_id    = $dataVoucher->id;
+                $item_name  = $dataVoucher->name;
+                $item_point = $dataVoucher->point;
+    
+                $get_info_point = $motorku->profile($owner_token);
+                $owner_point = $get_info_point->data->point;
+    
+                if($owner_point >= $item_point) {
+                    $redeem = $motorku->redeem($owner_token, $item_id); 
+                    if($redeem->status == 1) { 
+                        echo "[i] ".date('H:i:s')." | ".$item_name." berhasil di Redeem\n";
+                    } else {
+                        echo "[!] ".date('H:i:s')." | GAGAL Redeem ".$item_name." | ".$redeem->msg."\n";
+                    }
+                } else {
+                    echo "\nDONE!\n\n";
+                    die();
+                }           
+            }
+        }
+        
+    }
+}
+
+
+$no=1;
+$loop = $coin/15;
+while(TRUE) {
+
+    $randomuser = $motorku->randomuser();
+    foreach ($randomuser as $value) {
+        $firstname = $value->Firstname;
+        $lastname  = $value->Lastname;
+        $email     = $value->Email;
+
+
+        for ($i=0; $i < 2; $i++) { 
+            if($i==0) {
+                $name = $firstname;
+            } else {
+                $name = $lastname;
+            }
+
+            $run = $motorku->regis($name, $reff);
+            if($run==true) {
+                echo "[".$no++."] ".date('H:i:s')." | Registrasi Berhasil.";
+
+                if($validToken == TRUE) {
+                    $profile = $motorku->profile($owner_token);              
+                    $owner_point = $profile->data->point;                  
+
+                    echo " Total Poin Sekarang ".$owner_point.".\n";
+              
+                    foreach ($voucher as $dataVoucher) {
+                        $item_id    = $dataVoucher->id;
+                        $item_name  = $dataVoucher->name;
+                        $item_point = $dataVoucher->point;
+
+                        $get_info_point = $motorku->profile($owner_token);
+                        $owner_point = $get_info_point->data->point;
+
+                        if($owner_point >= $item_point) {
+                            $redeem = $motorku->redeem($owner_token, $item_id);
+                            if($redeem->status == 1) { 
+                                echo "[i] ".date('H:i:s')." | ".$item_name." berhasil di Redeem\n";
+                            } else {
+                                echo "[!] ".date('H:i:s')." | GAGAL Redeem ".$item_name." | ".$redeem->msg."\n";
+                            }
+                        }                                  
+                    }                           
+                } else {
+                    echo "\n";
+                }
+
+                if($no > $loop) {
+                    echo "\n\nDONE! Target Poin Tercapai.\n\n";
+                    die();
+                }             
+            } else {
+                echo "[!] ".date('H:i:s')." | Registrasi GAGAL\n";
+            }
+        }   
+        
+        if($owner_point >= 5000) {
+            echo "[i] POINT LO SUDAH BANYAK, JANGAN MARUK! LANJUT LANGSUNG REDEEM AJA.\n";
+    
+            while(true) {
+                foreach ($voucher as $dataVoucher) {
+                    $item_id    = $dataVoucher->id;
+                    $item_name  = $dataVoucher->name;
+                    $item_point = $dataVoucher->point;
+        
+                    $get_info_point = $motorku->profile($owner_token);
+                    $owner_point = $get_info_point->data->point;
+        
+                    if($owner_point >= $item_point) {
+                        $redeem = $motorku->redeem($owner_token, $item_id);
+                        if($redeem->status == 1) {
+                            echo "[i] ".date('H:i:s')." | ".$item_name." berhasil di Redeem\n";
+                        } else {
+                            echo "[!] ".date('H:i:s')." | GAGAL Redeem ".$item_name." | ".$redeem->msg."\n";
+                        }
+                    } else {
+                        echo "\nDONE!\n\n";
+                        die();
+                    }           
+                }
+            }
+            
+        }    
+    }   
+}
+
+?>
