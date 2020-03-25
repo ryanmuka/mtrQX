@@ -52,7 +52,7 @@ class curl {
         }
         curl_close($this->ch);
         return $this->result;
-    }   
+    }  
 }
 
 class motorku {
@@ -328,7 +328,6 @@ class motorku {
 
         return $json;
     }
- 
 }
 
 /**
@@ -337,15 +336,15 @@ class motorku {
 
 $motorku = new motorku();
 
-echo "V2.4\nby @eco.nxn\n\nDisclaimer:\nSegala bentuk resiko atas tindakan ini saya pribadi tidak bertanggung jawab, gunakanlah senormal-nya!\n\n";
+echo "V2.3\nby @eco.nxn\n\nDisclaimer:\nSegala bentuk resiko atas tindakan ini saya pribadi tidak bertanggung jawab, gunakanlah senormal-nya!\n\n";
 echo "Kode Referral :";
 $reff = trim(fgets(STDIN));
 coin:
 echo "Target Poin   :";
-$coin = trim(fgets(STDIN));
+$poin= trim(fgets(STDIN));
 if(!is_numeric($coin)) {
     goto coin;
-} elseif ($coin < 15){
+} elseif ($poin< 15){
     echo "[i] Masukkan jumlah poin yang diinginkan\n";
     goto coin;
 }
